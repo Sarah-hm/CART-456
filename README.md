@@ -2,6 +2,7 @@
 
 ## Internship by Sarah Hontoy-Major,
 
+At the [Computation lab](https://clab.concordia.ca/) of the Design and Computation Arts department, Fine Arts Faculty, Concordia Univeristy (Mtl)
 Under the supervision of Pippin Barr and Sabine Rosenberg
 
 ## Schedule V1.0
