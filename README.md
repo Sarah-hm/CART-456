@@ -8,7 +8,7 @@ Under the supervision of Pippin Barr and Sabine Rosenberg
 
 (There may very well be 12 versions of this schedule :] )
 
-### Week 1:
+### (Week 1:)[/CART-456#week-1-1]
 
 - Looking into other solutions than D3 (is it really the technology I want/need to learn?);
 - Surface research on the library’s documentation and organizing topics with specific sections;
