@@ -1,0 +1,96 @@
+{
+  "Bobby Lee": {
+    "name": "bobby Lee",
+    "messages": [
+      {
+        "from": "sender",
+        "message": "💩",
+        "attached_file_type": "image",
+        "attached_file_src": "./images/bob.jpg"
+      },
+      {
+        "from": "lorna",
+        "message": "lorem ipsum",
+        "attached_file_type": "NA",
+        "attached_file_src": "NA"
+      },
+      {
+        "from": "sender",
+        "message": "lorem ipsum",
+        "attached_file_type": "NA",
+        "attached_file_src": "NA"
+      },
+      {
+        "from": "sender",
+        "message": "lorem ipsum",
+        "attached_file_type": "image",
+        "attached_file_src": "NA"
+      },
+      {
+        "from": "lorna",
+        "message": "grosse connasse sa mere",
+        "attached_file_type": "image",
+        "attached_file_src": "NA"
+      }
+    ],
+    "profile_picture": "./images/bobby-lee.png"
+  },
+  "person B": {
+    "name": "Philipp",
+    "messages": [
+      {
+        "from": "lorna",
+        "message": "lorem ipsum",
+        "attached_file_type": "image",
+        "attached_file_src": "bob.jpg"
+      },
+      {
+        "from": "sender",
+        "message": "lorem ipsum",
+        "attached_file_type": "NA",
+        "attached_file_src": "NA"
+      },
+      {
+        "from": "sender",
+        "message": "lorem ipsum",
+        "attached_file_type": "NA",
+        "attached_file_src": "NAg"
+      },
+      {
+        "from": "sender",
+        "message": "lorem ipsum",
+        "attached_file_type": "NA",
+        "attached_file_src": "NA"
+      }
+    ]
+  },
+  "Clara": {
+    "name": "clara",
+    "messages": [
+      {
+        "from": "lorna",
+        "message": "lorem ipsum",
+        "attached_file_type": "image",
+        "attached_file_src": "bob.jpg"
+      },
+      {
+        "from": "sender",
+        "message": "lorem ipsum",
+        "attached_file_type": "NA",
+        "attached_file_src": "NA"
+      },
+      {
+        "from": "sender",
+        "message": "lorem ipsum",
+        "attached_file_type": "NA",
+        "attached_file_src": "NAg"
+      },
+      {
+        "from": "sender",
+        "message": "lorem ipsum",
+        "attached_file_type": "NA",
+        "attached_file_src": "NA"
+      }
+    ]
+  }
+}
