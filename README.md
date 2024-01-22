@@ -25,7 +25,7 @@ Instead of designing the original intended workshop, aiming to translate as accu
 P5.js is a great tool to visualize designs and games; however, it is not incredible at navigation systems, which a lot of interfaces require. On the other hand, HTML and JavaScript’s event listeners do a pretty great job at managing such tasks, namely with buttons; they are however not so easy to use to sketch drawings as P5 is. Inspired by projects like Vera Van Der Seyp's [Computational Knitting](https://www.media.mit.edu/projects/computational-knitting-patterns/overview/) projects that blends [HTML form and P5 canvas](https://knit.veravandeseyp.com/), I aim to show students that P5 can be used in myriad conjonctions with vanilla JavaScript and other libraries.<br>
 <br>
 In this small 2 hour workshop, I will overview three different options/versions of how to create a button using P5 and/or vanilla JavaScript: one using only P5 shapes and texts, one using a P5 function that dynamically creates an HTML button, and one using a native HTML button with a javaScript event listener.
-In [js/script-p5.js](https://github.com/Sarah-hm/CART-456/blob/main/p5-and-beyond/js/script-p5.js), I am starting by showing how I would have originally done a button, when I was taking 253-263; the rect() and text() method with long if() statements on the whereabouts of the mouseX/mouseY works, it’s just long and unnecessary. In [method 1)](https://sarah-hm.github.io/CART-456/p5-and-beyond/index-p5.html), we will create a button only using P5 shapes, texts and event listeners, just so everyone is on the same page.<br>
+In [js/script-p5.js](https://github.com/Sarah-hm/CART-456/blob/main/p5-and-beyond/js/script-p5.js), I am starting by showing how I would have originally done a button, when I was taking 253-263; the rect() and text() method with long if() statements on the whereabouts of the mouseX/mouseY work, but the method remains long and unnecessary. In [method 1)](https://sarah-hm.github.io/CART-456/p5-and-beyond/index-p5.html), we will create a button using only P5 shapes, texts and event listeners, so everyone is on the same page.<br>
 <br>
 I stumbled upon the P5 createButton() function as I was making my way through P5 documentation, and thought it could be a good bridge to explain how exactly P5 dynamically creates HTML tags on the document. CreateCanvas() remains a bit of an abstract function that we just learn we should be doing; I hope that by explaining what createButton() is and further down how to create a button manually, that the functionality of createCanvas() also becomes clearer for students. The P5 createButton() function lacks extensive customization options, hence becomes a good transition into HTML button tags and CSS properties.<br>
 <br>
@@ -51,7 +51,7 @@ Sabine meeting on 23rd at 1pm.
 Agenda:
 
 - Review Workshop outline + files;
-- Edits based on review;
+- Edits based on review + final outline;
 - Workshop prep (room, sending files, admin, etc);
 - Project Research prep;
 - January 26th: Workshop I
