@@ -39,7 +39,7 @@ Title: JavaScript with P5 & Beyond (ft. HTML and CSS)<br>
 Date: January 26th, 2024<br>
 Time: 2 pm to 5 pm;<br>
 Location: 7.745 (Garage door classroom by the elevators)<br>
-Overview: Develop an understanding of vanilla JavaScript and how to incorporate it with the P5 canvas. Using P5 sketching functions introduced in CART-253, we will transfer user interaction to a more efficient navigation system using HTML tags and native JavaScript event listeners.
+Overview: Develop an understanding of vanilla JavaScript and how to incorporate it with the P5 canvas. Using P5 sketching functions introduced in CART-253, we will transfer user interaction to a navigation system using HTML tags and native JavaScript event listeners.
 Required level: some P5.js, minimal HTML, CSS can help but not required.<br>
 Material requirement: bring your own machine with code editor installed (e.g., Visual Code)<br>
 
