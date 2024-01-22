@@ -1,5 +1,3 @@
-/* CSS similar to CART-353 template -- to change */
-
 /* 
 selectors' symbols:
 tag-name{}
@@ -7,14 +5,15 @@ tag-name{}
 .class-name{}
 */
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  display: grid; /* Set up the grid and justify/align to center */
-  justify-content: center;
-  align-content: center;
-  height: 100vh; /* Body is the height of the viewport */
-  /* overflow: hidden; Hide anything that goes off the window size */
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* removes default button style */
@@ -46,4 +45,10 @@ button {
   border: solid 1px cyan;
   box-shadow: 0px 15px 0px 0px rgb(12, 222, 222);
   cursor: pointer;
+  /* transition: all 0.1s; */
+}
+
+.command-board__button:active {
+  transform: translateY(10px);
+  box-shadow: 0px 5px 0px 0px rgb(12, 222, 222);
 }

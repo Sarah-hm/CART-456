@@ -14,9 +14,22 @@
     <script src="js/script.js"></script>
   </head>
   <body>
+    <!-- create navigatable buttons on the command board. -->
     <div id="command-board">
-      <button class="command-board__button" id="left-button">⇜</button>
-      <button class="command-board__button" id="right-button">⇝</button>
+      <button
+        class="command-board__button"
+        id="left-button"
+        onclick="moveLeft()"
+      >
+        ⇜
+      </button>
+      <button
+        class="command-board__button"
+        id="right-button"
+        onclick="moveRight()"
+      >
+        ⇝
+      </button>
     </div>
   </body>
 </html>

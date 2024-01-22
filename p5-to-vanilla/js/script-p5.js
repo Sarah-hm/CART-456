@@ -1,6 +1,6 @@
 // Here are 2 options to create navigatable buttons using P5 functions.
-// 1) using rect() and text() functions
-// 2) using createButton() functions
+// 1) using P5 rect() and text() functions with a general mouseClicked() event listener
+// 2) using P5 createButton() function with an anonymous function in a mouseClicked event listener
 
 // In this example, the buttons make a player go left or right.
 
@@ -14,6 +14,7 @@ const leftBtnX = 50;
 const leftBtnY = 425;
 
 function setup() {
+  // Create the canvas where the command board and game will be drawn
   createCanvas(500, 500);
 }
 
