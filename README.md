@@ -2,8 +2,8 @@
 
 ## Weekly agenda and journal
 
-1. [Week 1](#-week-1)
-2. [Week 2](#-week-2)
+1. [Week 1](#week-1)
+2. [Week 2](#week-2)
 
 ### Week 1
 
