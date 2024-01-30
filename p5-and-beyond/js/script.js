@@ -7,7 +7,14 @@ let playerPosX = window.innerWidth / 2; //places the player in the middle of the
 // However, if we want to draw on it using P5, we should create it using the library.
 function setup() {
   // Store it in a constant, so we can access it later
-  const canvas = createCanvas(windowWidth, windowHeight);
+
+  // const canvas = createCanvas(windowWidth, windowHeight / 2);
+
+  const canvas = createCanvas(
+    windowWidth,
+    windowHeight / 2,
+    document.getElementById("our-canvas")
+  );
 }
 
 function draw() {
@@ -31,4 +38,8 @@ function moveLeft() {
 
 function moveRight() {
   playerPosX = playerPosX + 10;
+}
+
+function doSomethingElse() {
+  document.getElementById("a-new-element").classList.toggle("hide-the-element");
 }

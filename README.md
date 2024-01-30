@@ -55,3 +55,36 @@ Agenda:
 - Workshop prep (room, sending files, admin, etc);
 - Project Research prep;
 - January 26th: Workshop I
+
+#### To do
+
+- Editing the workshop files, making the outline, and preparing all the resources for the event;
+- Teaching the workshop (crying face emoji);
+- Figuring it out the move for my internship project/workshop II;
+- Second JavaScript workshop ???
+
+#### Journal
+
+I survived my first ever workshop, so that is one thing. <br>
+
+Turn out was low, but it made me more comfortable to approach the subject in a more intimate way. I believe there is also much to learn on the organization and advertisement of such events, but that will only come with practice. Doing a workshop at the very beginning of the semester was already a long-shot, but I remain very pleased with how it turned out. <br>
+I was not only able to go through the material mostly unscathed, but I also genuinely sensed that I was driving a point across. With the advice of Sabine, I finished off with a very short exercise to build upon the files we had overviewed. The participants each found ways to further their documentation skills and find new events to impact different things on and off the canvas. I appreciated the variety of interests as well; from setting intervals with mousedown() and mouseup(), to styling through CSS event selectors. I really enjoyed assisting them through both the questions they had during, and after the workshop.<br>
+I am overall very happy with the result—could have been better, but there is always space for improvement, which is a pretty good thing. I am disappointed I forgot to record the workshop as requested (re: crying face emoji), making me appreciate Sabine’s presence at the workshop that much more. I am feeling better equipped for the next one—which I am already looking forward to. <br>
+<br>
+However, I need to start focusing on my main project a little bit more. I had wildly underestimated the resources needed to produce and give a workshop, especially one you know the subject of very well. It is one thing to know JavaScript, but to break it down in manageable and practical pieces, and then actually teaching it, is an entire other ordeal. <br>
+I want to avoid incapacitating the development of my project by giving two workshop on JavaScript at the very beginning of the semester, as I originally intended. I am most definitely set on learning openFrameworks, as it would allow me to experiment with real-time video mapping in junction with Arduino—but for that, I need to dive deep into C++, which I have not done in years. I am also adamant that on top of my own openFrameworks project, I will be producing a introductory workshop on the framework set to be on March 22nd. To be able to fulfill my (C++) goals elegantly, I may have to rethink and discuss the feasibility of the second JavaScript workshop.
+
+### Week 3
+
+#### Agenda
+
+Sabine meeting on 30th at 2pm.
+Agenda:
+
+- Debrief workshop;
+- JavaScript second workshop (?);
+- openFramework project (with Arduino).
+
+#### To do
+
+- OpenFramework tutorial series [here](https://www.youtube.com/watch?v=dwt2NAd1ZYY&list=PL4neAtv21WOlqpDzGqbGM_WN2hc5ZaVv7&index=2) (14 hours);
