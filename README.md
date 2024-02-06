@@ -4,6 +4,8 @@
 
 1. [Week 1](#week-1)
 2. [Week 2](#week-2)
+3. [Week 3](#week-3)
+4. [Week 4](#week-4)
 
 ### Week 1
 
@@ -86,8 +88,35 @@ Agenda:
 
 - Debrief workshop;
 - JavaScript second workshop (?);
-- openFramework project (with Arduino).
+- TouchDesigner 100 series.
 
 #### To do
 
-- OpenFramework tutorial series [here](https://www.youtube.com/watch?v=dwt2NAd1ZYY&list=PL4neAtv21WOlqpDzGqbGM_WN2hc5ZaVv7&index=2) (14 hours);
+- Derivative TouchDesigner 100 series [here](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/)
+- Exploring how to utilize TD as a framework for a large scope project
+
+#### Journal
+
+While my resources were stretched thin this past week, my clumsy overestimation of my capacity to gather python skills like a breeze made me fail my intended goal of going through the full Derivative tutorials. I rather spent time doing all the exercises overviewed in the tutorials and furthering them instead. I went through all the TOPs and CHOPs tutorials—sprinkled with other bits of other operators, and was already overwhelmed by the affordances that the framework has. I have not done extensive math in a while; the idea of having to (re)assimilate it while building my python understanding is intimidating. I find that going back and producing exercises on my own without the assistance of a ‘live-coding’ session (the video tutorials) to be a worthwhile—though time consuming, methodologies. While the myriad operators expand the possibilities of my project far beyond what I thought was possible, I need to remember exactly what and where they are, and how to use them, if I want them to be beneficial in any capacity.<br>
+I know that I want to use camera (kinect) input for my project, so I try to translate most exercises to ways it could be applied to it (using my webcam). Of course, the kinect is used a little differently in TouchDesigner, but I have yet to create structures nuanced enough to actually need that kind of input. I’ll learn more about the 3D aspects of my project in the next chapter on Surface Operators.<br>
+The aspect of time will also be very important for my project, so spending more time understanding how to trigger events through different constants was meaningful as well. Even in these simple node structures, I quickly recognized how impactful the refinement of complex mathematical equations was on outputs. More math means more beauty. Who would have thought (I will make myself a few enemies with that one). Needless to say, I am slightly out of my depth when it comes to the abstraction of mathematics. To understand the full scope of TouchDesigner, I may have to spend a chunk of time diving into math notions that are relevant to the framework. But more on that in our meeting.<br>
+As for my project, I have many questions that remain unanswered, which I will dive into this week. I know I am producing a TouchDesigner tool to assist in the creation of our project Symphenia, done in the scope of the Convergence Class. My team and I’s project is an amalgam of differently sized canvas, arranged on a wall in a photo gallery fashion. The canvas are discreet objects, fully detached from one another. They should however reaction in unison according to their placement—imagine a ricochet on a liquid surface. I aim to produce a structure that is modular and encompassing enough to allow customization (when we inevitably change our minds 8743892 times on the final look of the thing) with little change on the software side.<br>
+<br>
+[ Will insert pictures of my exercises very shortly]
+<br>
+
+### Week 4
+
+#### Agenda
+
+Sabine meeting on 7th at 2pm.
+Agenda:
+
+- Talking about the project: ideas and limitations
+- Python & Math reco
+
+#### To do
+
+- Finish SOPs, DATs, COMPs and outro [here](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/)
+- Finding projects and examples (files) to draw from
+- Making a to do list to learn/implement for the project
