@@ -117,11 +117,11 @@ Agenda:
 
 #### To do
 
-- Finish TouchDesigner 100 series Tutorial [here](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/) and, on advice of Sabine, chill out while I figure out what exactly TouchDesigner is, what’s it’s capable of, and mostly just avoid falling into rabbit holes that are beyond the complexity level that I am at right now.
+- Finish TouchDesigner 100 series Tutorial [here](https://learn.derivative.ca/courses/100-fundamentals/lessons/101-navigating-the-environment/) and, on Sabine's advice, chill out while I figure out what exactly TouchDesigner is, what it’s capable of, and mostly just avoid falling into rabbit holes that are beyond the complexity level that I am at right now.
 
 #### Journal
 
-I finished the tutorials. I don’t feel much more comfortable to start a project from scratch on my own, but I do understand a lot more what TouchDesigner is capable of, and have a general idea of where everything is and how to interact with it. I recognized how fun DAT operators could be in live interactive experiments/experiences, and I’m really excited to start meddling in that. <br>
+I finished the tutorials. I don’t feel much more comfortable to start a project from scratch, but I do understand a lot more what TouchDesigner is capable of, and have a general idea of where everything is and how to interact with it. I recognized how fun DAT operators could be in live interactive experiments/experiences, and I’m really excited to start meddling in that. <br>
 My main (and maybe only) negative take away from this series is that the Kinect does not, in fact, run on Apple’s arm architecture, the only OS I have available. That limitation creates a bit of a hiccup for my projects, but it will be a good opportunity to research other less mainstream, but perhaps more interesting, data inputs. I can also easily find ways to emulate a Kinect input until I have an non-silicon OS available, if that is the goal. <br>
 I also gained a lot of interest in the freedom Python expressions allow in the customization of parameters. A node-based framework can sometimes feel limiting when coming from a more coding oriented practice. The way TD embeds callbacks and allows full custom script writing allows for so much to be done… And may get me in a few endless rabbit holes if I don’t control myself for the time being. <br>
 So instead of overdoing it by trying to figure out things far beyond my current skill range, I want to spend the next week documenting myself on specific topics I already have an inclined for, and start a (small) project/exercise based on pre-built TouchDesigner snippets. I would want to:<br>
@@ -131,7 +131,7 @@ So instead of overdoing it by trying to figure out things far beyond my current 
 #### Agenda
 
 - Read more on Python expression documentation, familiarizing myself with TD nomenclature
-- Practice OSC in with SIM ZIG app (cellphone sensors’ inputs)
-- Practice DAT executes (using OSC in)
+- Practice OSC input with SIM ZIG app (cellphone sensors’ inputs) or JSON (web file somewhere)
+- Practice DAT executes (using OSC input or JSON)
 - Exploring TD available snippets and their structures (how are they connected, referenced, binded, …), edit and layer a variety to create a ~final ’perform’ (e.g., Line Mat/vectors from TOPs)
 - Explore palette operators (e.g., rgbaDelay, noise, stoner, particleGPU)
