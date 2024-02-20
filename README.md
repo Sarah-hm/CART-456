@@ -135,3 +135,40 @@ So instead of overdoing it by trying to figure out things far beyond my current 
 - Practice DAT executes (using OSC input or JSON)
 - Exploring TD available snippets and their structures (how are they connected, referenced, binded, …), edit and layer a variety to create a ~final ’perform’ (e.g., Line Mat/vectors from TOPs)
 - Explore palette operators (e.g., rgbaDelay, noise, stoner, particleGPU)
+
+#### Journal
+
+This week, I created a few static (non-interactive, non-reactive), two reactive (but non-interactive), and one interactive visualization in TouchDesigner. I mainly explored instancing, OSC, as well as palettes and snippets focused on noise. I also recognized that the 100 series from Derivative I completed was a good entry point for understanding TD’s operators system, but that I needed more in-depth overviews of how to interweave the operators in an comprehensive structure. <br>
+I first explored a few different Noise options (TOP and Palette Noise) and recreated the examples from [this tutorial](https://www.youtube.com/watch?v=PIoq2BFtMAc). All examples were fun to create, and quite easily achievable. They all remained very straightforward and TOP-y, holding 5 to 10 nodes at max. Their simplicity helped me better understand the range of affordances Noise operators have, as little shifts in variables were easily observable in the rendered design. <Br>
+[![Experiment: TouchDesigner Noise I](https://img.youtube.com/vi/vLSxtlaFN6M/0.jpg)](https://www.youtube.com/watch?v=vLSxtlaFN6M
+https://youtube.com/shorts/vLSxtlaFN6M <br>
+
+[![Experiment: TouchDesigner Noise II](https://img.youtube.com/vi/fGV7VNhaB48/0.jpg)](https://www.youtube.com/watch?v=fGV7VNhaB48)
+https://youtu.be/fGV7VNhaB48 <br>
+<br>
+I liked the trial-and-error and unedited nature of the first tutorial (quite realistic), so I watch a second tutorial of that series (TD for beginners) on [instancing](https://www.youtube.com/watch?v=rYet0SwTYa0). The TD instancing functions allow a very similar procedural approach to populating a render as OOP in JS. I gravitate towards OOP a lot for its abstractive and iterative nature, so instancing is a great TD parallel I know I will implement in most, if not all, of my projects. I mixed all the examples with different Noise operators from the previous tutorial, and made the two last reactive to (the default TD provided) audio. <br>
+N.b.: The last example uses both audio and noise input to morph its shape, making the effect audio has much less obvious. Important note for future me who loves putting Noise everyone because it looks good (it really does). It may make the interaction more challenging for participants. <Br>
+
+[![Experiment: TouchDesigner Instances I](https://img.youtube.com/vi/JD6XrW4TUkg/0.jpg)](https://www.youtube.com/watch?v=JD6XrW4TUkg)
+https://youtu.be/JD6XrW4TUkg <br>
+[![Experiment: TouchDesigner Instances II](https://img.youtube.com/vi/edmwJTNLzuE.jpg)](https://www.youtube.com/watch?v=edmwJTNLzuE)
+https://youtu.be/edmwJTNLzuE <br>
+
+[![Experiment: TouchDesigner Instances II](https://img.youtube.com/vi/fvFCfll6Nks.jpg)](https://www.youtube.com/watch?v=fvFCfll6Nks)
+https://youtu.be/fvFCfll6Nks <br>
+<br>
+Setting the noise rabbit hole aside, I found another [tutorial](https://www.youtube.com/watch?v=SJZIMGg-thY) using instancing to create a mouse reactive wall (of blocks). I wanted to very simply emulate the project Symphenia I am currently developing in collaboration with Illiez Planche, Liana Kaloussian and Antoine Bou Khalil. The mechanical interactive wall is made of hundreds of particles that imprint recognized bodies onto it. While the particles are chaotically shifting colours at a resting state, particles within a silhouette have their colours converge into an average. After recreating the imprint portion of this project using the mouse input, I used [this tutorial](https://www.youtube.com/watch?v=pwwuZj8KK6M&t=661s) to help me set up the OSC from Sim Zig to TD. Using my Iphone front camera depth map, I mapped my recognized body on the block instances’ z translation, forming an imprint very similar to the desired render. <Br>
+[![Experiment: TouchDesigner Instances II](https://img.youtube.com/vi/flu-NsYqrYQ.jpg)](https://www.youtube.com/watch?v=flu-NsYqrYQ)
+
+https://youtu.be/flu-NsYqrYQ<br>
+
+<br>
+While spending some time in exploring new palettes/snippets, I want to further explore Sim Zig’s sensors, namely the ARkit, instancing MATs (ish), DATs and Python expressions. The [ARkit](https://1-10.github.io/zigsim/features/arkit.html) seems much more precise than the depth map I used, providing tracking position points for different objects like face and body. It uses a lot more datapoints than the depth map image which will have me practice DATs in a meaningful way. Building upon my Symphenia prompt, I also want to explore how to set different materials for all instances like shown [in this tutorial](https://www.youtube.com/watch?v=MFNoBVnTqCg). This will also have me practice more python expressions.
+
+### Week 6
+
+#### Agenda
+
+- Explore a new palette operator/operator snippets;
+- Zig Sim ARkit / fine tuning depth map;
+- MAT instancing with python expressions
