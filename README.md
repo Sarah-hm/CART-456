@@ -168,3 +168,25 @@ While spending some time in exploring new palettes/snippets, I want to further e
 - Explore a new palette operator/operator snippets;
 - Zig Sim ARkit / fine tuning depth map;
 - MAT instancing with python expressions
+- Meeting with Thomas about project
+
+#### Journal
+
+I explored instancing textures with the geo COMP using a few tutorials and its TD native eponym operator snippet. The snippet did not really explain further what I had not already been able to piece together the week prior, and the tutorial I mentioned last week did not work on my end. TD is a rapidly developing platform, and few years old tutorials can easily be deprecated. <br>
+The tutorial that worked for me seemed structurally similar to the older examples I found, with added (more recent) functionalities. There does not seem to be a high-level way of instancing materials in the same ways TD instances geometries or other operators, but I am interesting in diving a little deeper on that front. In the meantime, the workarounds are making me attuned to other versatile operators like the Duplicator COMP and the Grid SOP, as well as TD python expressions. <br>
+Although I am comfortable in CAD environments, I am not great at render scenes properly using cameras and lighting systems. My aim using TD is to break away from screen-based interactive systems, but it would be interesting to be able to render proper scenes while I still learn. Spending some time tinkering with light and camera angles (orthodox, perspective, …) is meaningful. Some of my experiments look pretty neat, but failing to document them properly with adequate lighting makes me unable to do something meaningful with them. <br>
+I also met with Thomas (sensor lab assistant this semester working with Emotibit sensors) to plan a final project. As I approach the final steps of my degree, I believe a comprehensive rendition of my skill sets in a project is more meaningful than spending resources to make another workshop. I will not be working with Thomas in the end, but meeting with him and discussing different input applications for TouchDesigner informed interesting directions my own project could take. <br>
+Overall, this week was a lot less streamline than last, and I hit several walls I did not think I would hit. This coming week, I want to spend more time articulating a comprehensive project proposal/outline, and diving even more into the instancing blocks I have encountered this week. I believe it is a bridge I will inevitably have to cross in whatever project I will build in the coming weeks. In doing so, I will also be able to practice python expressions and several operators.<br>
+
+### Notes
+
+Body tracking recognition using the Blob Detection TOP : https://www.youtube.com/watch?v=ZplOrM6G6JI <br>
+<br>
+Blob track documentation: https://docs.derivative.ca/Blob_Track_TOP
+PS1: Blob tracking is only available on (more?) complete (?) versions of TD. Watched the full tutorial because it was interesting, but also not exactly the definition I am looking for. I’d rather go with ARKit/tracking points/depth map fine tuning. It is an interesting tool for a presence trigger (but then you have to record a bunch of environments?)<br>
+<br>
+Followed this tutorial for more depth map and ARkit with iphone Sim zig: https://www.youtube.com/watch?v=dfKfVJfy7SI&t=197s <br>
+<br>
+Followed this tutorial for texture instancing: https://www.youtube.com/watch?v=uFFXUPP0cyg<br>
+<br>
+PS2: NDI in TIP does not work over VPN (e.g., while using within Concordia’s network and using a VPN) <br>
