@@ -9,6 +9,7 @@
 5. [Week 5](#week-5)
 6. [Week 6](#week-6)
 7. [Week 7](#week-7)
+8. [Week 8](#week-8)
 
 ### Week 1
 
@@ -215,3 +216,20 @@ In the meantime, I’ve spent most of the week working through more CHOPs (chann
 As for instancing, I may get back to it, but when I find a way to work with TD and not against it. I don’t think it’s meaningful to find a way despite something not working as desired, but to wait for a moment where I’ll be able to manage it with what it’s best able to do. <Br>
 <br>
 *Another interesting one I research is FT8; works in inhospitable environment, more recent than PSK31, but much slower, coming at a rate of 5 words/minute. <br>
+<br>
+
+### Week 8
+
+#### Agenda
+
+- Documenting myself more on data input (what and how)
+- Figuring out Feedback operator
+
+#### Journal
+
+This week, I focused on understanding exactly what radio waterfall displays actually displayed, and how to emulate their data on TouchDesigner. This also organically led me to explore tutorials on the Feedback (top) operator, which allows looping frames (and their data) inside a network.
+Waterfall displays are beautiful renditions of received radio frequencies on modem softwares, which have inspired parts of the project I am currently working on. One of my goals is to emulate (and process) them in TouchDesigner. I originally thought I would need to take these displays’ visual data within their modem software, and transpose them into TouchDesigner. However, learning what the display represented helped me bypass the need for a modem altogether. <br>
+Waterfall display are 3 dimensional maps of radio frequencies. The X axis represents the full frequency domain the radio is listen to (digital modes listen to 50+ frequencies at a time, as opposed to more common Simplex one-to-one communication), the Y axis represents the time (with the most recent frequency domain sweep on top), and the alpha or heat map effect is the Z axis and represents the spectrograph at a given time and frequency.
+Knowing these features, I employed a few snippets I had previously created in prior and new tutorials, and edited them to configure an accurate waterfall display within TouchDesigner, only using an audio as input. I used two sources to inform my display, one is a single 16 second long message using PSK-31, and the other is a much wider range of digital mode frequencies with various conversations over several minutes. Both waterfalled very nicely :) <br>
+The waterfall-esque effect of the display also prompted me to delve more into the Feedback operator, which allows effect looping without breaking the underlying coding of the software. Until now, I have been trying to learn TouchDesigner by mapping new operators to coding functionalities I already know. Although the Feedback operator is not that hard to understand, it is a very ‘touchDesigner’ way of approaching digital production in which I don’t find a specific equivalent in other coding frameworks I know. It’s making it slightly more awkward (or confusing) to learn, but it’s also helping me understand the ‘touchDesigner’ mindset with which to approach my node projects. <br>
+By next week, I want to inform a depth map and 3D environment from the Z-index of the TouchDesigner waterfall display I already have. I want to spend some time exploring how one can embody the space, both within and outside of TouchDesigner. How could one interact with it? Simply by moving/observing it? How about changing its state? Its frequency…?<br>
